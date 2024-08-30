@@ -1,2 +1,2 @@
-# Kudadaan_rakathona_hack
+# Kudadaan_rakathona_hackathon
 Urban Waste Management System
