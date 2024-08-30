@@ -48,7 +48,7 @@ with st.sidebar:
     # TODO: Give user a chance to name chat
     st.session_state.chat_title = f'ChatSession-{st.session_state.chat_id}'
 
-st.write('# Namma Saathi ♻️🌏 ')
+st.write('# NAMMA 🙏🏻 SATHHI ♻️🌏 ')
 
 # Chat history (allows to ask multiple questions)
 try:
