@@ -1,62 +1,43 @@
-# Trash Dump
+Kudadaan app
 
-The Trash Dump App is a mobile application designed to simplify waste management and promote sustainable practices. It allows users to conveniently schedule waste pickups from their homes and offers an in-built store where they can purchase items made from recycled waste.
+Introduction
 
-## Introduction
+The KUDADAAN App is an innovative solution designed to streamline waste management and promote sustainability through advanced technology. Our application offers on-demand waste pickup services, integrates AI and computer vision for efficient waste segregation, and ensures the health and safety of waste management personnel. By targeting municipal corporations and digitizing waste management, KUDADAAN aims to transform how waste is handled and improve overall environmental practices.
 
-The Trash Dump App is revolutionizing waste management by providing an easy-to-use platform that simplifies waste collection and promotes sustainable living. Traditional waste disposal methods often involve inconvenience and limited recycling options. With the Trash Dump App, users can schedule waste pickups effortlessly, eliminating the hassle of visiting waste management facilities or adhering to strict pickup schedules.
+Features
 
-In addition to waste pickup, the app features an in-built store where users can explore and purchase a diverse range of items crafted from recycled waste materials. By supporting the use of recycled products, the app actively contributes to waste reduction and the growth of recycling industries.
+On-Demand Waste Pickup
 
-## Features
+Effortless Scheduling: Users can request waste pickups at their convenience, providing details about the type of waste and preferred pickup time.
+Reliable Service: Our trusted waste pickup partners ensure timely and efficient collection, reducing the need for users to visit waste management facilities.
 
-- #### Convenient Waste Pickup Scheduling:
+AI-Powered Waste Segregation
 
-  Users can easily schedule waste pickups by providing basic details and specifying the type of waste to be collected. Trusted trash pickup partners will handle the waste collection at the designated time, ensuring convenience and flexibility.
+Smart Segregation: Utilizes AI and computer vision to automatically sort waste into recyclables, compostables, and general waste.
+Health Monitoring: Incorporates computer vision to monitor and ensure the safety of waste pickup personnel, addressing potential health hazards.
+Data Dashboard
+Monitoring and Insights: Provides users and municipal corporations with real-time data on waste collection and segregation, helping to optimize waste management strategies.
 
-- #### Recycled Store:
+Integration: Seamlessly integrates with household dustbins for a more efficient and user-friendly waste management experience.
+User Incentives
 
-  The app's in-built store offers a wide variety of items made from recycled waste. Users can browse and purchase eco-friendly products, including home decor, accessories, and more, supporting sustainable practices and a circular economy.
+Rewards Program: Offers incentives to users for consistent participation and proper waste segregation, encouraging sustainable behavior.
+Demo
 
-- #### Efficient Waste Management:
-  The app connects users with reliable trash pickup partners who adhere to proper waste disposal and recycling practices, ensuring efficient waste management and a cleaner environment.
+Demo Video Link
 
-## Demo
+Tech Stack
 
-- [Demo Video Link](https://youtu.be/vBZKYRUwRSk)
+App Development: Flutter
+Database: Firebase
+State Management: GetX
+Local Storage: Shared Preferences
+AI and Computer Vision: (Specify any additional tools or libraries used for AI and computer vision)
+Installation
+To install and run the KUDADAAN App locally, follow these steps:
 
-## Tech Stack
 
-**App Development:** Flutter
 
-**Database:** Firebase
 
-**State Management:** GetX
 
-**Local Storage:** Shared Preferences
-
-## Installation
-
-To install and run the Trash Dump App locally, follow these steps:
-
-1. Clone the repository
-2. Navigate to the project directory and install the required dependencies using the command:
-
-   `flutter pub get`
-
-3. Configure Firebase:
-
-- Create a new Firebase project on the [Firebase Console](https://console.firebase.google.com/).
-- Follow the instructions to add your Flutter app to the Firebase project and download the `google-services.json` file.
-- Place the `google-services.json` file inside the `android/app/` directory.
-
-4. Add the Google Maps API key in the environment variables ` .env` file as `MAPS_API_KEY` after enabling the Maps SDK in the Google Cloud Console.
-
-5. Run the app using the command:
-
-` flutter run`
-
-## Inspirations
-
-- [Behance - Trash App](https://www.behance.net/gallery/156645721/Trash-Garbage-collection-Management-App)
-- [Behance - ScrapGo App](https://www.behance.net/gallery/168798199/ScrapGo-An-application-for-selling-scrap)
+This project is licensed under the MIT License - see the LICENSE file for details.
